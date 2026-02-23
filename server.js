@@ -1,7 +1,7 @@
 const fastify = require("fastify")({ logger: true });
 
 fastify.get("/", async (request, reply) => {
-  return { message: "Hello from CI/CD!" };
+  return { message: "Hello from CI/CD!, NEW CHANGES" };
 });
 
 const start = async () => {
